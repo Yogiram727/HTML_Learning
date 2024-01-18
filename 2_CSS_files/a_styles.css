@@ -5,3 +5,64 @@ body{
 p{
     color:orange;
 }
+
+a[href*="google"][href^="https"][href$=".com"]{
+    color:orange;
+}
+
+#product + p{
+    color:blue;
+}
+
+
+/* d_sudo_class_selector */
+article p:first-of-type {
+    color:black;
+    font-size: 140%;
+    font-style: italic;
+}
+
+article :last-of-type{
+    font-size: 100%;
+    font-weight: bold;
+}
+
+ul li:nth-child(odd){
+    color:deeppink;
+}
+
+a:visited,a:link{
+    color:dodgerblue;
+}
+
+a:hover, a:focus{
+    color:deeppink;
+}
+
+/* e_sudo element selector */
+.first-letter{
+    font-size: 140%;
+    font-weight: bold;
+}
+p::first-letter{
+    font-size:140%;
+    font-weight:bold;
+}
+P::first-line{
+    font-weight: bold;
+}
+
+::selection{
+    background-color: pink;
+}
+
+p::before{
+    content:'...';
+    display: block;
+}
+
+p::after{
+    content:'...';
+    display: block;
+}
+

@@ -1,18 +1,24 @@
-<!-- We can select element by their id,class and type
-we can have multiple element with same class but not with same id-->
-
+<!-- Relational selectors
+a. Clearner 
+b. Fragile
+c. Not as fast as basic selectors
+Prefer to select elements by their id or class -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
     <link rel="stylesheet" href="/2_CSS_files/b_normalize.css" />
     <link rel="stylesheet" href="/2_CSS_files/a_styles.css" />
   </head>
-
   <body>
-    <a href="https://google.com" target="_blank">Google</a>
+    <section id="product">
+      <p>Lorem ipsum dolor sit amet.</p>
+      <article>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </article>
+    </section>
+    <p>Lorem ipsum dolor sit amet.</p>
   </body>
 </html>
