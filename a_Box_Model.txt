@@ -1,0 +1,6 @@
+=> Whenever a brower render an element it put inside a box
+=> Box Model 
+    -> Content area at the core 
+    -> Padding area to add some space outside the content area
+    -> Border area
+    -> Margin area to add space between some elements
